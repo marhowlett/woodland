@@ -1,0 +1,210 @@
+
+//main: main.less
+@media (max-width: 768px){
+.offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+    display: none!important;
+}
+
+}
+@media screen and (max-width: 750px) {
+    .woodmart-burger-icon a{
+        color: #eeca3c!important;
+    }
+    /*LOGO*/
+    .woodmart-logo img {
+   padding-top: 0;
+    transform: scale(1) translateY(26px);
+}
+    
+    //Fix slide
+    
+    canvas{
+        touch-action:auto !important;
+    }
+    
+    .scene-nav{
+        display: none;
+    }
+    
+    /*Esquema por defecto para las secciones*/
+    .grid {
+		    display: initial;
+        .col {
+            width: 100%;
+        }
+        .col2 {
+            width: 100%;
+        }
+        .col3 {
+            width: 100%;
+        }
+        
+        &.invertido{
+            flex-wrap: wrap-reverse;
+        } 
+    }
+    
+.template-section a.btn {
+    margin: 0 auto;
+    display: block;
+     margin-top: 25px;
+    padding: 15px;
+    margin-left: 10px!important;
+    margin-right: 10px;
+}
+
+
+    .template-section {
+       
+    padding: 50px 15px;
+
+        .col, .col2, .col3 {
+            min-height: auto;
+            padding: 20px;
+        }
+		h2 {
+			      font-size: 35px;
+    line-height: 1.2em;
+
+		}
+        h3 {
+    font-size: 23px;
+        }
+        p,a,ul{
+            font-size: 14px;
+        }
+        
+        p, h2, h3 {
+            text-align: center;
+        }
+        
+    }
+    .template-section p.titulo, .template-section ul.titulo, .template-section a.titulo {
+   
+    font-size: 18px;
+    }
+    
+
+
+
+     .cel {
+    display: inherit!important;
+}
+     .lap {
+    display: none!important;
+}
+ #creemos {
+    margin-right: auto;
+}
+    #taller {
+    background-image: -webkit-linear-gradient(0deg, white 0%, #f1ede1 0%);
+}
+    #testimonios {
+    padding: 20px;
+    }
+    #contacto{
+        .espe1, .espe2 {
+    width: 100%;
+}
+       .espe2 {
+
+    background: url(../img/contactores.jpg) center no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+       img.logo {
+    /* margin-bottom: 50px; */
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+        .espe1{
+                margin-top: 30px;
+            p{
+                text-align: left;
+            }
+        }
+        
+    }
+    
+    #contactopop{
+        .espe1 {
+    height: 459px;
+}
+        .espe2 {
+    height: 288px;
+            img.alignnone.size-full.wp-image-7170 {
+    display: block;
+    margin: auto;
+}
+            p{
+                text-align: center;
+            }
+        }
+    }
+    
+    /***NOSOTROS**/
+    
+    #nosotros .colespe {
+    background: url(../img/nosotrosres.jpg) center no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+    
+    #identidad {
+       background: url(../img/identidadres.jpg) bottom center no-repeat;
+   
+    background-color: #f3f3f3;
+    
+    .grid {
+    display: flex;
+}
+        .colespe1{
+            margin-top: 30px;
+            padding: 10px;
+        }
+         .colespe2{
+        padding: 20px;    
+        }
+        .col.colespe {
+    display: none;
+}
+        h3{
+            margin-top: 50px;
+        }
+       .iden {
+    position: relative;
+    top: 0px;
+    margin-bottom: 450px;
+}
+}
+    
+    #tienda{
+        height: 1000px;
+    background: url(../img/tiendares.jpg) center no-repeat;
+    background-size: contain;
+    padding: inherit;
+    h2 {
+    font-size: 35px;
+}
+    .contenedor{
+              position: relative;
+    top: 330px;
+    padding: 20px;
+    }
+}
+    #maquillamos {
+    background-image: -webkit-linear-gradient(0deg, white 0%, #f1ede1 0%);
+       .espe1 {
+    background: url(../img/maquillamosres.jpg) left center no-repeat;
+    padding: inherit;
+    background-size: cover;
+    height: 200px;
+}
+        .espe2 h2 {
+    text-align: center;
+    line-height: 1.2em;
+    font-size: 29px;
+        }
+}
+}

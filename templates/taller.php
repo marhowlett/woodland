@@ -2,7 +2,7 @@
     /* Template Name: Taller */ 
     get_header();
 ?>
-<?php echo do_shortcode('[video width="1920" height="1080" mp4="https://ecobol.mx/wp-content/uploads/2020/09/Ecobol-comprimido.mp4"][/video]'); ?>
+<?php echo do_shortcode('[video width="1920" height="1080" mp4="https://woodlandhouse.mx/wp-content/uploads/2020/10/WoodlandHoues_Master_HD.mp4.mp4"][/video]'); ?>
 <section id="taller2" class="template-section">
 <div class="contenedor">
 

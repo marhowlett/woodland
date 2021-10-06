@@ -86,7 +86,12 @@ body.page-template-inicio, body.page-template-acerca, body.page-template-taller,
 .nav-shop {
     visibility: hidden;
 }
-
+.lap{
+    display: inherit;
+}
+.cel{
+    display: none;
+}
 /*Esquema por defecto para las secciones*/
 .whb-row.whb-general-header.whb-not-sticky-row.whb-without-bg.whb-without-border.whb-color-dark.whb-flex-equal-sides {
     padding: 0px!important;
@@ -294,10 +299,14 @@ ol {
     
 }
 #galeria{
+    
     background-color: @grisfondo;
     .grid-post-item.thumbnail.thumbnail-icon {
     padding: 20px;
 }
+    .grid-post-item .thumbnail-image > a, .grid-post-item .hover-outer > a {
+    display: none!important;
+    }
     a.load-more.ladda-button {
         
         transition: all 0.3s ease-in-out;
@@ -593,7 +602,7 @@ ol {
     background-size: contain;
     .contenedor{
             position: relative;
-       top: 78px;
+       top: 132px;
 
     }
     b{
@@ -611,6 +620,7 @@ ol {
     margin: auto;
     text-align: justify;
     text-align-last: center;
+        font-size: 20px;
     }
 }
 /**TALLER***/
@@ -646,7 +656,7 @@ ol {
     p{
         font-weight: 500;
         text-align: justify;
-            width: 550px;
+            max-width: 550px;
         &.titulo{
              text-align: center;
         }
@@ -687,7 +697,7 @@ ol {
     p{
           color: white;
     font-weight: bold;
-    width: 550px;
+    max-width: 550px;
     display: block;
     margin: auto;
     text-align: center;
@@ -695,10 +705,16 @@ ol {
     }
 }
 #creemos{
+      margin-right: -200px;
     p.mueble {
+       
     font-weight: bold;
     position: relative;
+        color: black;
     top: 4px;
         text-transform: uppercase;
 }
 }
+
+
+@import "responsive";

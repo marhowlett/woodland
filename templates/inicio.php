@@ -51,7 +51,7 @@ a un precio justo</p></div>
    <h2>TALLER BOUTIQUE</h2>
    <p class="titulo">Woodland le abre sus puertas</p>
     <div class="grid">
-        <div class="col espe1"><iframe width="560" height="315" src="https://www.youtube.com/embed/fe_YLGxy2Hg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="col espe1"><?php echo do_shortcode('[video width="1920" height="1080" mp4="https://woodlandhouse.mx/wp-content/uploads/2020/10/WoodlandHoues_Master_HD.mp4.mp4"][/video]'); ?></div>
         <div class="col espe2">
             <p>Para nosotros es muy importante que cada cliente reciba el mueble que deseado. 
 Creamos muebles funcionales y con increíbles diseños de acuerdo a su estilo. </p>

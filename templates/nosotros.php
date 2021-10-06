@@ -5,7 +5,9 @@
       <section id="nosotros" class="template-section">
        <div class="contenedor">
        <div class="grid">
-          <div class="col colespe"></div>
+         
+          <div class="col colespe lap"></div>
+         
            <div class="col">
             <h2>NOSOTROS</h2>
               <p class="titulo">Woodland House su mejor opción</p>
@@ -18,6 +20,9 @@
            
           
            </div>
+           <div class="cel">
+          <div class="col colespe"></div>
+          </div>
            
        </div>
     </div>
@@ -65,9 +70,7 @@ fabricaremos el
 mueble de sus sueños
 a un precio justo</p></div>
    </div>
-   <div class="center">
-   <a href="#"  class="btn"> <span>MÁS INFORMACIÓn</span></a>
-   </div>
+   
 </div>
 </section>
 

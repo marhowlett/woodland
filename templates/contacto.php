@@ -2,6 +2,11 @@
 <h2>CONTÁCTENOS</h2>
           <p class="titulo">Le ayudaremos a encontrar el mueble que necesita</p>
            <div class="grid">
+              <div class="cel">
+                  <div class="espe2 datos">
+       
+           </div>
+             </div>
                <div class="espe1">
                <div class="cont">
                <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Logo">
@@ -23,9 +28,11 @@
               <p class="negrita">SÍGUENOS EN:<a href="#"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/fb.png" alt="Logo">  </a><a href="#"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/ig.png" alt="Logo">  </a></p>
                </div>
                </div>
-<div class="espe2 datos">
+               
+<div class="espe2 datos lap">
        
            </div>
+           
     </div>
 
 </section>
