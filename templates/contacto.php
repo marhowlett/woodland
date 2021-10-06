@@ -15,7 +15,7 @@
               <p>55 31 18 54 47</p>
               <p>55 46 18 21 11</p>
               <p>55 88 60 95 50</p>
-              <a href="mailto:contacto@woodlandhouse.mx">contacto@woodlandhouse.mx
+              <a href="mailto:contacto@woodlandhouse.com.mx">contacto@woodlandhouse.com.mx
 </a>
               <hr>
               <p>Calle Lombardos #26 A

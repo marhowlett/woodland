@@ -2,8 +2,11 @@
     /* Template Name: Taller */ 
     get_header();
 ?>
-<?php echo do_shortcode('[video width="1920" height="1080" mp4="https://woodlandhouse.mx/wp-content/uploads/2020/10/WoodlandHoues_Master_HD.mp4.mp4"][/video]'); ?>
+<section id="video" class="template-section">
+
+ <?php add_revslider('videowoodland'); ?></section>
 <section id="taller2" class="template-section">
+
 <div class="contenedor">
 
 <h2>TALLER BOUTIQUE</h2>
@@ -58,7 +61,7 @@ exactamente lo que desea.</p></div>
            <h2>MAQUILAMOS PARA
 <span>SU MUEBLERÍA</span></h2>
   
-            <p>En el Taller Boutique somos especialistas en la fabricación de Sillas Premium ( Cascos ), como en cualquier tipo de mueble para su tienda.</p>
+            <p>En el Taller Boutique somos especialistas en la fabricación de Sillas de madera Premium ( Cascos ), como en cualquier tipo de mueble para su tienda.</p>
  
 <p>Nuestra amplia experiencia nos permite ofrecerle la más alta calidad de fabricación y  un excelente precio, que le permita mantener márgenes de ganancia rentables.</p>
  
@@ -92,7 +95,7 @@ o Venga a nuestro TALLER BOUTIQUE, tóquelos y viva la
 experiencia de crear el mobiliario de sus sueños a la
 medida de sus necesidades.</p>
 <div class="center">
-   <a href="#"  class="btn"> <span>MÁS INFORMACIÓN</span></a>
+   <a href="#contacto"  class="btn"> <span>MÁS INFORMACIÓN</span></a>
    </div>
 </div>
 </section>
