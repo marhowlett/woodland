@@ -18,7 +18,8 @@
               <a href="mailto:contacto@woodlandhouse.com.mx">contacto@woodlandhouse.com.mx
 </a>
               <hr>
-              <p>Calle Lombardos #26 A
+              <p>Calle Lombardos
+<span>Manzana 72 lote 2 A</span>
 <span>Col Miguel Hidalgo, Tlahuac</span>
 <span>CP 13200 CDMX</span></p>
               <a href="" class="especial">¿Cómo llegar?</a><br>
